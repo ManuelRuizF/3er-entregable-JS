@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+</head>
+<body>
+    <div class= "wrapper>
+        <aside>
+             <header>
+                <h1 class="logo">REGALA BODA .COM</h1>
+             </header>
+             <nav>
+                <ul>
+                    
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.html"> 
+                            <i class="bi bi-arrow-90deg-left"></i>  Seguir comprando 
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./carrito.html"> 
+                            <i class="bi bi-cart3"></i>Volver al menú
+                        </a>
+                    </li>
+                </ul>
+             </nav>
+             <footer>
+                <p class="Texto Footer">CODER HOUSE MANUEL RUIZ</p>
+             </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                
+                <p class="carrito-vacio">Carrito Vacio.</p>
+                <div class="carrito-productos">
+                    <div class="carrito-producto">
+                        <img src="./imagenes/regaloboda1.jpg" alt="">
+                        <div class="carrito-nombre-titulo">
+                            <small>Titulo</small>
+                            <h3>Toalla</h3>
+
+                        </div>
+                        <div class="carrito-producto-cantidad"></div>
+                        <small>Cantidad</small>
+                        <p>1</p>
+                    </div>
+                    <div class="carrito-producto-precio">
+                        <small>Precio</small>
+                        <p>$50 USD</p>
+                    </div>
+                    <div class="carrito-producto-subtotal"></div>
+                    <small> Subtotal</small>
+                    <p>$50 USD</p>
+                </div>
+                <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+            </div>
+            <div class="carrito-acciones">
+                <div class="carrito-acciones-izq">
+                    <button class="carrito-acciones-vaciar">Vaciar Carrito</button>
+                </div>
+                <div class="carrito-acciones-der">
+                    <div class="carrito-acciones-total">
+                         <p>Total</p>
+                         <p id="total">$3000</p>
+                         
+                    </div>
+                    <button class="carrito-acciones-comprar">Comprar Ahora</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
