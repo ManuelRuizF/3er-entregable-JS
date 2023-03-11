@@ -48,6 +48,23 @@ card.innerHTML= ` <img src="${producto.imagen}" class="card-img-top" alt="...">
     </div>`;
         pictures.appendChild(card);
 });
+
+let botonagregar = document.querySelectorAll('#boton-compraz');
+console.log(botonagregar);
+
+botonagregar.forEach((e)=>{
+    e.addEventListener('click', ()=>{
+        Toastify({
+            text: 'Articulo agregado',
+            duration: 3000,
+            position: 'left',
+            gravity: 'bottom',
+            
+          }).showToast()
+        console.log("artículo agregado");
+    })
+})
+
 //_------------------------------------------------------------------------------------------------------------------------
 
 let carritoArray =[];
